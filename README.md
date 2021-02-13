@@ -12,9 +12,9 @@
 ![20](20.png)
 
 ## Dashboard
-![21](21.png)
-![22](22.png)
-![23](23.png)
+![21](21.jpg)
+![22](22.jpg)
+![23](23.jpg)
 
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
