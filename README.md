@@ -32,7 +32,7 @@
 
 In this project, i create the full stack IOT project include hardware implement, software implement and Server implement. in each implement i will quick in 3 section bellow. The main program this project solve is: Taking the data from a several number of "sensor node" and send this to "Gateway" (connect between Center node and Gateway app) after processing this data "Gateway" send this processed data to "MQTT" to showing this in the other "Dashboard" through Application in Java language connect to "MQTT" server.
 
-![u](Untitled.png)
+![2](2.png)
 
 ## Hardware Implement
 
