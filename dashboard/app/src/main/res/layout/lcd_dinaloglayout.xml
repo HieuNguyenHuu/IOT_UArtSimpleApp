@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+    <EditText
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/textboxx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Text show in LCD ..."
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp">
+        <requestFocus />
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn"
+            android:text="Set"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcustom1"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_real_estate"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            />
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login ..."
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textColor="#121212"
+            />
+                <LinearLayout
+                    android:id="@+id/textbox"
+                    android:visibility="invisible"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="Text here..."
+            android:layout_gravity="center"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp">
+                <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:background="#000"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignRight="@+id/editText1"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Login" >
+        </Button>
+                </LinearLayout>
+        </LinearLayout>
+</ScrollView>
