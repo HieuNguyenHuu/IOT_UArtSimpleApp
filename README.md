@@ -91,12 +91,16 @@ The idea is, when control code send from the MQTT server (in function messageArr
 these components is the IoT Hub, which serves as the most important bidirectional connector for external data sources and IoT devices. With the OPC Router, the IoT Hub and thereby the Azure Cloud can be connected to write data to the Azure Cloud, but also to obtain data from the Cloud for the field level. The connection of the IoT Hub is realized with the OPC Router MQTT Client Plug-in. The transfer of data at the field level or the data procurement for the cloud is implemented with the various plug-ins of the OPC router.
 
 * Topic Subscribe and Publish
+
 	* Implement connection
 	![14](14.png)
+	
 	* Connection Function
 	![15](15.png)
+	
 	* Subscribe Function
 	![17](16.png)
+	
 	* Publish Function
 	![18](17.png)
 
