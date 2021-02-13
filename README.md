@@ -99,10 +99,10 @@ these components is the IoT Hub, which serves as the most important bidirectiona
 	![15](15.png)
 	
 	* Subscribe Function
-	![17](16.png)
+	![17](17.png)
 	
 	* Publish Function
-	![18](17.png)
+	![18](18.png)
 
 ## Contact
 
